@@ -1,0 +1,10 @@
+<template name ="singlePost">
+{{#if isSubReady 'post'}}
+	{{#with getPost}}
+		<h2>{{title}}</h2>
+		<p>{{body}}</p>
+	{{/with}}
+{{else}}
+	Loading...
+{{/if}}
+</template>
