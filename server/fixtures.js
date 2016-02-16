@@ -1,5 +1,5 @@
 function randomDate(start, end) {
-	return new Date(start.getTime() + Match.random() * (end.getTime() - start.getTime()));
+	return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
 }
 
 Meteor.startup(function () {
