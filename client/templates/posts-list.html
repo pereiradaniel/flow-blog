@@ -1,0 +1,12 @@
+<template name="postsList">
+	{{#if isSubReady 'posts'}}
+		{{#each getPosts}}
+			<h2>{{title}}</h2>
+			<p>{{body}}</p>
+			<a href="{{pathFor 'blog' postId=_id}}">Link to post</a>
+			<hr>
+		{{/each}}
+	{{else}}
+		Loading...
+	{{/if}}
+</template>
