@@ -1,5 +1,5 @@
 Template.postsList.helpers({
 	getPosts: function () {
-		return Posts.find({}, { sort: {vcreatedAt: -1 }});
+		return Posts.find({}, { sort: {createdAt: -1 }});
 	}
 });
