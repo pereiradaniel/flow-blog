@@ -1,4 +1,7 @@
 # FLOW BLOG
 ---
 
-*Daniel Paul Grech Pereira*
+## RAILS BLOG PROJECT
+
+---
+_*Daniel Paul Grech Pereira*_
